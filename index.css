@@ -1,0 +1,67 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	overflow-x: hidden;
+}
+.navbar{
+	background-color: white;
+}
+
+.nav-link{
+	color: #36393B;
+	font-size: 1rem;
+	font-weight: 700;
+	cursor: pointer;
+	text-decoration: none;
+}
+.nav-link:hover{
+	color: #DEA54B;
+	background-color: #36393B;
+}
+.navbar-brand{
+	font-size: 1.25rem;
+	font-weight: 800;
+	color: black;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.main{
+	background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./images/profile.jpg) no-repeat;
+	background-repeat: no-repeat;
+  	background-size: cover;
+ 	background-position: center;
+ 	padding-top: 3rem;
+ 	padding-bottom: 3rem;
+ 	color: #DEA54B;	
+}
+.main h3{
+	font-size: 4.4rem;
+	font-weight: 700;
+}
+.main h6{
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	line-height: 1;
+	border-bottom: 3px solid #2E2836;
+	width: 40%;
+}
+.container {
+	text-align: left;
+	width: 40%;
+	position: relative;
+	right: 10%;
+}
+.subtitle{
+	font-size: 1.3rem;
+	font-weight: 300;
+	width: 75%;
+	top: 0%;
+}
+
